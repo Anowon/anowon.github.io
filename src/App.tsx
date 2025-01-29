@@ -22,7 +22,10 @@ function App() {
   return (
     <div className="container">
       <div className="header">
-        <h1 className={visible ? 'fade-in' : ''}>Андрей Иванов</h1>
+        <h1 className={visible ? 'fade-in' : ''}>
+          <img src="/src/assets/Myphoto.jpg" alt="Андрей Иванов" className="profile-img" />
+          Андрей Иванов
+        </h1>
         <p className={visible ? 'fade-in' : ''}>Начинающий DevOps инженер</p>
         <div className="contact-links">
           <a href="https://t.me/Anowo_N" target="_blank" rel="noopener noreferrer" className={visible ? 'fade-in' : ''}>Telegram: Anowo_N</a>
